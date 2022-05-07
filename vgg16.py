@@ -230,7 +230,7 @@ class VGG16(torch.nn.Module):
         # load the model of vgg16 with pretrained set to False
         vgg16_features = models.vgg16(pretrained=False)
         # load the weights of vgg16 from umich, cited in the report
-        vgg16_features.load_state_dict(torch.load(vgg_path), strict=False)
+        # vgg16_features.load_state_dict(torch.load(vgg_path), strict=False)
         # get the features of vgg16
         self.features = vgg16_features.features[:20]
         self.conv21 = vgg16_features.features[21]

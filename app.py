@@ -23,11 +23,11 @@ vgg16_model_mapper = {'coco_rain_princess': 'models/VGG16/COCO/rain_princess.pth
                          'coco_the_shipwreck':  'models/VGG16/COCO/the_shipwreck.pth',
                          'coco_udnie':  'models/VGG16/COCO/udnie.pth',
                          'coco_wave':  'models/VGG16/COCO/wave.pth',
-                         'tinyIN_rain_princess': 'models/VGG16/TinyImagenet/rain_princess.pth',
-                         'tinyIN_the_scream':  'models/VGG16/TinyImagenet/the_scream.pth',
-                         'tinyIN_the_shipwreck':  'models/VGG16/TinyImagenet/the_shipwreck.pth',
-                         'tinyIN_udnie':  'models/VGG16/TinyImagenet/udnie.pth',
-                         'tinyIN_wave':  'models/VGG16/TinyImagenet/wave.pth'}
+                         'tiny_imagenet_rain_princess': 'models/VGG16/TinyImagenet/rain_princess.pth',
+                         'tiny_imagenet_the_scream':  'models/VGG16/TinyImagenet/the_scream.pth',
+                         'tiny_imagenet_the_shipwreck':  'models/VGG16/TinyImagenet/the_shipwreck.pth',
+                         'tiny_imagenet_udnie':  'models/VGG16/TinyImagenet/udnie.pth',
+                         'tiny_imagenet_wave':  'models/VGG16/TinyImagenet/wave.pth'}
 
 
 custom_model_mapper = {'coco_rain_princess': 'models/Custom/COCO/rain_princess.pth',
