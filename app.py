@@ -97,12 +97,11 @@ def stylize(image, architecture, trained_on, style):
 ### Web app using Fast Dash!
 # Fastify Dash's dropdown component
 architecture_dropdown = Fastify(component=dcc.Dropdown(options={x:x for x in ['VGG16', 'Custom']}), assign_prop='value')
-architecture_trained_on = Fastify(component=dcc.Dropdown(options={x:x for x in ['COCO', 'Tiny Imagenet']}), assign_prop='value')
-architecture_style = Fastify(component=dcc.Dropdown(options={x:x for x in ['Rain Princess', 'The Scream', 'The Shipwreck',
-                                                                                   'Udnie', 'Wave']}), assign_prop='value')
+trained_on_dropdown = Fastify(component=dcc.Dropdown(options={x:x for x in ['COCO', 'Tiny Imagenet']}), assign_prop='value')
+style_dropdown = Fastify(component=dcc.Dropdown(options={x:x for x in ['Rain Princess', 'The Scream', 'The Shipwreck', 'Udnie', 'Wave']}), assign_prop='value')
 
 app = FastDash(callback_fn=stylize, 
-                inputs=[UploadImage, architecture_dropdown, architecture_trained_on, architecture_style], 
+                inputs=[UploadImage, architecture_dropdown, trained_on_dropdown, style_dropdown], 
                 outputs=Image, 
                 title='Neural Style Transfer',
                 title_image_path='https://raw.githubusercontent.com/dkedar7/fast_dash/main/examples/Neural%20style%20transfer/assets/icon.png',
