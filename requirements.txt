@@ -1,4 +1,6 @@
 numpy
+gunicorn
+matplotlib
 torch==1.8.1
 torchvision==0.9.1
 Pillow==9.0.1
