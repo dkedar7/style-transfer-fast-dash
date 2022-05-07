@@ -107,9 +107,9 @@ app = FastDash(callback_fn=stylize,
                 title='Neural Style Transfer',
                 title_image_path='https://raw.githubusercontent.com/dkedar7/fast_dash/main/examples/Neural%20style%20transfer/assets/icon.png',
                 subheader="Apply styles from well-known pieces of art to your own photos",
-                github_url='https://github.com/dkedar7/fast_dash/',
-                linkedin_url='https://linkedin.com/in/dkedar7/',
-                twitter_url='https://twitter.com/dkedar7/',
+                github_url='https://github.com/',
+                linkedin_url='https://linkedin.com/',
+                twitter_url='https://twitter.com/',
                 theme='JOURNAL')
 
 
