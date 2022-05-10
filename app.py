@@ -109,7 +109,8 @@ app = FastDash(callback_fn=stylize,
                 github_url='https://github.com/',
                 linkedin_url='https://linkedin.com/',
                 twitter_url='https://twitter.com/',
-                theme='JOURNAL')
+                theme='JOURNAL',
+                update_live=True)
 
 
 if __name__=='__main__':
